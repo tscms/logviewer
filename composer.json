@@ -1,0 +1,19 @@
+
+{
+    "name": "tscms/logviewer",
+    "type": "kohana-module",
+    "description": "Logviewer for Kohana",
+    "homepage": "https://github.com/tscms/logviewer",
+    "keywords": ["kohana","logviewer"],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "1.*"
+    },
+    "extra": {
+        "installer-paths": {
+            "vendor/kohana/modules/{$name}/": [
+                "type:kohana-module"
+            ]
+        }
+    }
+}
